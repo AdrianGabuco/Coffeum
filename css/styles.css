@@ -120,11 +120,60 @@ nav ul li a:hover {
 }
 
 footer {
-    font-family: Arial, sans-serif;
-    background-color: #4c3c32;
-    color: white;
-    text-align: center;
+    background-color: #d6b442;
+    color: #181310;
     padding: 20px 0;
-    margin-top: -100px;
-    clear: both;
-}
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .footer-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul li a {
+    color: #181310;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .newsletter-form input[type="email"] {
+    padding: 8px;
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter-form button {
+    padding: 8px 16px;
+    background-color: #181310;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
