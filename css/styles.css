@@ -13,10 +13,7 @@ header {
     justify-content: space-between;
     align-items: center;
     transition: 0.5s linear;
-<<<<<<< HEAD
-=======
     z-index: 2;
->>>>>>> d986716295ad5a30011fde88f9eb8a232b4cf37a
 }
 nav{
     color: #bb6d0e;
@@ -116,14 +113,52 @@ nav ul li a:hover {
     font-size: 1rem;
 }
 
-.menu {
-    padding: 100px 0;
-    text-align: center;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.menu h2 {
-    font-size: 30px;
+.menu {
+    text-align: center;
+    padding: 50px;
+    background-color: #f7f7f7;
+}
+
+.menu-section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 1.8rem;
     margin-bottom: 20px;
+}
+
+.menu-item {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.price {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
 }
 
 .about {
@@ -164,39 +199,15 @@ footer {
     background-color: #d6b442;
     color: #181310;
     padding: 20px 0;
-<<<<<<< HEAD
-  }
-  
-  .footer-content {
-=======
 }
   
 .footer-content {
->>>>>>> d986716295ad5a30011fde88f9eb8a232b4cf37a
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-<<<<<<< HEAD
-  }
-  
-  .footer-section {
-    flex: 1;
-    margin-right: 20px;
-  }
-  
-  .footer-section h2 {
-    margin-bottom: 10px;
-  }
-  
-  ul {
-    list-style: none;
-  }
-  
-  ul li a {
-=======
 }
   
 .footer-section {
@@ -213,27 +224,10 @@ ul {
 }
   
 ul li a {
->>>>>>> d986716295ad5a30011fde88f9eb8a232b4cf37a
     color: #181310;
     text-decoration: none;
     margin-bottom: 10px;
     display: block;
-<<<<<<< HEAD
-  }
-  
-  .social-icons a {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  .newsletter-form input[type="email"] {
-    padding: 8px;
-    width: 80%;
-    margin-bottom: 10px;
-  }
-  
-  .newsletter-form button {
-=======
 }
   
 .social-icons a {
@@ -248,24 +242,14 @@ ul li a {
 }
   
 .newsletter-form button {
->>>>>>> d986716295ad5a30011fde88f9eb8a232b4cf37a
     padding: 8px 16px;
     background-color: #181310;
     border: none;
     color: #fff;
     cursor: pointer;
-<<<<<<< HEAD
-  }
-  
-  .footer-bottom {
-    text-align: center;
-    margin-top: 20px;
-  }
-=======
 }
   
 .footer-bottom {
     text-align: center;
     margin-top: 20px;
 }
->>>>>>> d986716295ad5a30011fde88f9eb8a232b4cf37a
